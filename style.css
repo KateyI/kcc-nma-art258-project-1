@@ -1,0 +1,53 @@
+@import 'https://fonts.googleapis.com/css?family=Vollkorn';
+
+* {
+  box-sizing: border-box;
+}
+
+nav li{
+  display: inline-block;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+}
+
+li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #5b5b5b;
+  font-family: 'vollkorn', serif;
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul{
+  display: flex;
+}
+
+.hero {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 500px) {
+.hero{
+  width: 100%;
+  height: auto;
+}
+}
+
+@media screen and {max-width: 500px) {
+  .hero{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+}
